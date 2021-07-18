@@ -29,11 +29,16 @@
             padding: 5px;
 
         }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
         nav a{
             text-decoration: none;
             color: black;
             font-size: 1.5em;
             border: 0;
+            margin-right: 15px;
             padding: 5px;
         }
     </style>
@@ -43,10 +48,16 @@
 <body>
     <header>
         <nav>
-            <a href="">Home</a>
+            <span>
+                <a href="">Home</a>
             <a href="">Products</a>
             <a href="">Orders</a>
             <a href="">About us</a>
+            </span>
+            <span>
+                <a href=""><i class="fas fa-user"></i></a>
+            <a href=""><i class="fas fa-sign-out-alt"></i></a>
+            </span>
         </nav>
     </header>
     <section class="login-container">
